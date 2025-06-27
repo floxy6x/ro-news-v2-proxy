@@ -1,1 +1,8 @@
-{"version": 2, "builds": [{"src": "api/rss.js", "use": "@vercel/node"}]}
+{
+  "version": 2,
+  "functions": {
+    "api/rss.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
